@@ -32,6 +32,8 @@ It uses **SwiftUI**, **Core Data**, and **Swift Concurrency** to deliver the sam
 ---
 
 ## 🧱 Architecture – The Composable Architecture
+
+```
 ┌──────────────────────────────────────────┐
 │ SwiftUI Views │
 │ TaskListView, TaskRow, AddEditTaskView │
@@ -52,7 +54,7 @@ It uses **SwiftUI**, **Core Data**, and **Swift Concurrency** to deliver the sam
 │ (struct with closures, live / test) │
 │ Injecteed via @Dependency(.taskRepo) │
 └──────────────────────────────────────────┘
----
+```
 **What sets this apart for your team:**
 
 - **Explicit state and actions** – every mutation is a traceable action, making debugging trivial.
