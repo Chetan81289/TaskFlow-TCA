@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB791D82FA61A3D003E84BA /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1DB791D72FA61A3D003E84BA /* ComposableArchitecture */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB791B92FA619AD003E84BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB7919C2FA619AC003E84BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB791A32FA619AC003E84BA;
+			remoteInfo = "TaskFlow-TCA";
+		};
+		1DB791C32FA619AD003E84BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB7919C2FA619AC003E84BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB791A32FA619AC003E84BA;
+			remoteInfo = "TaskFlow-TCA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB791A42FA619AC003E84BA /* TaskFlow-TCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaskFlow-TCA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB791B82FA619AD003E84BA /* TaskFlow-TCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TaskFlow-TCATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB791C22FA619AD003E84BA /* TaskFlow-TCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TaskFlow-TCAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1DB43E422FA64C2900C6D6AF /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlow-TCATests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TaskFlow_TCATests.swift,
+			);
+			target = 1DB791B72FA619AD003E84BA /* TaskFlow-TCATests */;
+		};
+		1DB43E432FA64C2900C6D6AF /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlow-TCAUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TaskFlow_TCATests.swift,
+			);
+			target = 1DB791C12FA619AD003E84BA /* TaskFlow-TCAUITests */;
+		};
+		1DB791CA2FA619AD003E84BA /* Exceptions for "TaskFlow-TCA" folder in "TaskFlow-TCA" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1DB791A32FA619AC003E84BA /* TaskFlow-TCA */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1DB43E402FA64C2800C6D6AF /* TaskFlow-TCATests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1DB43E422FA64C2900C6D6AF /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlow-TCATests" target */,
+				1DB43E432FA64C2900C6D6AF /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlow-TCAUITests" target */,
+			);
+			path = "TaskFlow-TCATests";
+			sourceTree = "<group>";
+		};
+		1DB791A62FA619AC003E84BA /* TaskFlow-TCA */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1DB791CA2FA619AD003E84BA /* Exceptions for "TaskFlow-TCA" folder in "TaskFlow-TCA" target */,
+			);
+			path = "TaskFlow-TCA";
+			sourceTree = "<group>";
+		};
+		1DB791C52FA619AD003E84BA /* TaskFlow-TCAUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TaskFlow-TCAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB791A12FA619AC003E84BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB791D82FA61A3D003E84BA /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB791B52FA619AD003E84BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB791BF2FA619AD003E84BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB7919B2FA619AC003E84BA = {
+			isa = PBXGroup;
+			children = (
+				1DB791A62FA619AC003E84BA /* TaskFlow-TCA */,
+				1DB791C52FA619AD003E84BA /* TaskFlow-TCAUITests */,
+				1DB43E402FA64C2800C6D6AF /* TaskFlow-TCATests */,
+				1DB791A52FA619AC003E84BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB791A52FA619AC003E84BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB791A42FA619AC003E84BA /* TaskFlow-TCA.app */,
+				1DB791B82FA619AD003E84BA /* TaskFlow-TCATests.xctest */,
+				1DB791C22FA619AD003E84BA /* TaskFlow-TCAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB791A32FA619AC003E84BA /* TaskFlow-TCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB791CB2FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCA" */;
+			buildPhases = (
+				1DB791A02FA619AC003E84BA /* Sources */,
+				1DB791A12FA619AC003E84BA /* Frameworks */,
+				1DB791A22FA619AC003E84BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1DB791A62FA619AC003E84BA /* TaskFlow-TCA */,
+			);
+			name = "TaskFlow-TCA";
+			packageProductDependencies = (
+				1DB791D72FA61A3D003E84BA /* ComposableArchitecture */,
+			);
+			productName = "TaskFlow-TCA";
+			productReference = 1DB791A42FA619AC003E84BA /* TaskFlow-TCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DB791B72FA619AD003E84BA /* TaskFlow-TCATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB791D02FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCATests" */;
+			buildPhases = (
+				1DB791B42FA619AD003E84BA /* Sources */,
+				1DB791B52FA619AD003E84BA /* Frameworks */,
+				1DB791B62FA619AD003E84BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB791BA2FA619AD003E84BA /* PBXTargetDependency */,
+			);
+			name = "TaskFlow-TCATests";
+			packageProductDependencies = (
+			);
+			productName = "TaskFlow-TCATests";
+			productReference = 1DB791B82FA619AD003E84BA /* TaskFlow-TCATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DB791C12FA619AD003E84BA /* TaskFlow-TCAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB791D32FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCAUITests" */;
+			buildPhases = (
+				1DB791BE2FA619AD003E84BA /* Sources */,
+				1DB791BF2FA619AD003E84BA /* Frameworks */,
+				1DB791C02FA619AD003E84BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB791C42FA619AD003E84BA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1DB43E402FA64C2800C6D6AF /* TaskFlow-TCATests */,
+				1DB791C52FA619AD003E84BA /* TaskFlow-TCAUITests */,
+			);
+			name = "TaskFlow-TCAUITests";
+			packageProductDependencies = (
+			);
+			productName = "TaskFlow-TCAUITests";
+			productReference = 1DB791C22FA619AD003E84BA /* TaskFlow-TCAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB7919C2FA619AC003E84BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					1DB791A32FA619AC003E84BA = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					1DB791B72FA619AD003E84BA = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 1DB791A32FA619AC003E84BA;
+					};
+					1DB791C12FA619AD003E84BA = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 1DB791A32FA619AC003E84BA;
+					};
+				};
+			};
+			buildConfigurationList = 1DB7919F2FA619AC003E84BA /* Build configuration list for PBXProject "TaskFlow-TCA" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DB7919B2FA619AC003E84BA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1DB791D62FA61A3D003E84BA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1DB791A52FA619AC003E84BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB791A32FA619AC003E84BA /* TaskFlow-TCA */,
+				1DB791B72FA619AD003E84BA /* TaskFlow-TCATests */,
+				1DB791C12FA619AD003E84BA /* TaskFlow-TCAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB791A22FA619AC003E84BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB791B62FA619AD003E84BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB791C02FA619AD003E84BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB791A02FA619AC003E84BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB791B42FA619AD003E84BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB791BE2FA619AD003E84BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DB791BA2FA619AD003E84BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB791A32FA619AC003E84BA /* TaskFlow-TCA */;
+			targetProxy = 1DB791B92FA619AD003E84BA /* PBXContainerItemProxy */;
+		};
+		1DB791C42FA619AD003E84BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB791A32FA619AC003E84BA /* TaskFlow-TCA */;
+			targetProxy = 1DB791C32FA619AD003E84BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DB791CC2FA619AD003E84BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TaskFlow-TCA/TaskFlow_TCA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7WYYK97KY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TaskFlow-TCA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChetanPurohit.TaskFlow-TCA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DB791CD2FA619AD003E84BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TaskFlow-TCA/TaskFlow_TCA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7WYYK97KY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TaskFlow-TCA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChetanPurohit.TaskFlow-TCA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DB791CE2FA619AD003E84BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = J7WYYK97KY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DB791CF2FA619AD003E84BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J7WYYK97KY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB791D12FA619AD003E84BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7WYYK97KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChetanPurohit.TaskFlow-TCATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskFlow-TCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskFlow-TCA";
+			};
+			name = Debug;
+		};
+		1DB791D22FA619AD003E84BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7WYYK97KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChetanPurohit.TaskFlow-TCATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskFlow-TCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskFlow-TCA";
+			};
+			name = Release;
+		};
+		1DB791D42FA619AD003E84BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7WYYK97KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChetanPurohit.TaskFlow-TCAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TaskFlow-TCA";
+			};
+			name = Debug;
+		};
+		1DB791D52FA619AD003E84BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7WYYK97KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChetanPurohit.TaskFlow-TCAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TaskFlow-TCA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB7919F2FA619AC003E84BA /* Build configuration list for PBXProject "TaskFlow-TCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB791CE2FA619AD003E84BA /* Debug */,
+				1DB791CF2FA619AD003E84BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB791CB2FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB791CC2FA619AD003E84BA /* Debug */,
+				1DB791CD2FA619AD003E84BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB791D02FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB791D12FA619AD003E84BA /* Debug */,
+				1DB791D22FA619AD003E84BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB791D32FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB791D42FA619AD003E84BA /* Debug */,
+				1DB791D52FA619AD003E84BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DB791D62FA61A3D003E84BA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.25.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DB791D72FA61A3D003E84BA /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DB791D62FA61A3D003E84BA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1DB7919C2FA619AC003E84BA /* Project object */;
+}
