@@ -28,7 +28,7 @@ struct TaskListFeature {
         }
     }
 
-    enum Action: BindableAction {
+    enum Action: BindableAction, Equatable {
         case binding(BindingAction<State>)
         case task(TaskAction)
         case loadTasks
@@ -40,7 +40,7 @@ struct TaskListFeature {
     }
 
     @CasePathable
-    enum TaskAction {
+    enum TaskAction: Equatable {
         case delete(indexSet: IndexSet)
     }
 

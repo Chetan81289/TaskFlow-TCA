@@ -28,32 +28,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1DB791A42FA619AC003E84BA /* TaskFlow-TCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaskFlow-TCA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DB791B82FA619AD003E84BA /* TaskFlow-TCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TaskFlow-TCATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DB791C22FA619AD003E84BA /* TaskFlow-TCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TaskFlow-TCAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB791A42FA619AC003E84BA /* TaskFlowTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskFlowTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB791B82FA619AD003E84BA /* TaskFlowTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskFlowTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB791C22FA619AD003E84BA /* TaskFlowTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskFlowTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1DB43E422FA64C2900C6D6AF /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlow-TCATests" target */ = {
+		1D9579102FA650D500756F67 /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlowTCATests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				TaskFlow_TCATests.swift,
+				MockTaskRepository.swift,
+				TaskListFeatureTests.swift,
 			);
-			target = 1DB791B72FA619AD003E84BA /* TaskFlow-TCATests */;
+			target = 1DB791B72FA619AD003E84BA /* TaskFlowTCATests */;
 		};
-		1DB43E432FA64C2900C6D6AF /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlow-TCAUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				TaskFlow_TCATests.swift,
-			);
-			target = 1DB791C12FA619AD003E84BA /* TaskFlow-TCAUITests */;
-		};
-		1DB791CA2FA619AD003E84BA /* Exceptions for "TaskFlow-TCA" folder in "TaskFlow-TCA" target */ = {
+		1DB791CA2FA619AD003E84BA /* Exceptions for "TaskFlow-TCA" folder in "TaskFlowTCA" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 1DB791A32FA619AC003E84BA /* TaskFlow-TCA */;
+			target = 1DB791A32FA619AC003E84BA /* TaskFlowTCA */;
+		};
+		1DE815C22FA6588E0079E533 /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlowTCAUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MockTaskRepository.swift,
+				TaskListFeatureTests.swift,
+			);
+			target = 1DB791C12FA619AD003E84BA /* TaskFlowTCAUITests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -61,8 +63,8 @@
 		1DB43E402FA64C2800C6D6AF /* TaskFlow-TCATests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				1DB43E422FA64C2900C6D6AF /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlow-TCATests" target */,
-				1DB43E432FA64C2900C6D6AF /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlow-TCAUITests" target */,
+				1D9579102FA650D500756F67 /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlowTCATests" target */,
+				1DE815C22FA6588E0079E533 /* Exceptions for "TaskFlow-TCATests" folder in "TaskFlowTCAUITests" target */,
 			);
 			path = "TaskFlow-TCATests";
 			sourceTree = "<group>";
@@ -70,7 +72,7 @@
 		1DB791A62FA619AC003E84BA /* TaskFlow-TCA */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				1DB791CA2FA619AD003E84BA /* Exceptions for "TaskFlow-TCA" folder in "TaskFlow-TCA" target */,
+				1DB791CA2FA619AD003E84BA /* Exceptions for "TaskFlow-TCA" folder in "TaskFlowTCA" target */,
 			);
 			path = "TaskFlow-TCA";
 			sourceTree = "<group>";
@@ -121,9 +123,9 @@
 		1DB791A52FA619AC003E84BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1DB791A42FA619AC003E84BA /* TaskFlow-TCA.app */,
-				1DB791B82FA619AD003E84BA /* TaskFlow-TCATests.xctest */,
-				1DB791C22FA619AD003E84BA /* TaskFlow-TCAUITests.xctest */,
+				1DB791A42FA619AC003E84BA /* TaskFlowTCA.app */,
+				1DB791B82FA619AD003E84BA /* TaskFlowTCATests.xctest */,
+				1DB791C22FA619AD003E84BA /* TaskFlowTCAUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1DB791A32FA619AC003E84BA /* TaskFlow-TCA */ = {
+		1DB791A32FA619AC003E84BA /* TaskFlowTCA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DB791CB2FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCA" */;
+			buildConfigurationList = 1DB791CB2FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlowTCA" */;
 			buildPhases = (
 				1DB791A02FA619AC003E84BA /* Sources */,
 				1DB791A12FA619AC003E84BA /* Frameworks */,
@@ -146,17 +148,17 @@
 			fileSystemSynchronizedGroups = (
 				1DB791A62FA619AC003E84BA /* TaskFlow-TCA */,
 			);
-			name = "TaskFlow-TCA";
+			name = TaskFlowTCA;
 			packageProductDependencies = (
 				1DB791D72FA61A3D003E84BA /* ComposableArchitecture */,
 			);
 			productName = "TaskFlow-TCA";
-			productReference = 1DB791A42FA619AC003E84BA /* TaskFlow-TCA.app */;
+			productReference = 1DB791A42FA619AC003E84BA /* TaskFlowTCA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1DB791B72FA619AD003E84BA /* TaskFlow-TCATests */ = {
+		1DB791B72FA619AD003E84BA /* TaskFlowTCATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DB791D02FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCATests" */;
+			buildConfigurationList = 1DB791D02FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlowTCATests" */;
 			buildPhases = (
 				1DB791B42FA619AD003E84BA /* Sources */,
 				1DB791B52FA619AD003E84BA /* Frameworks */,
@@ -167,16 +169,16 @@
 			dependencies = (
 				1DB791BA2FA619AD003E84BA /* PBXTargetDependency */,
 			);
-			name = "TaskFlow-TCATests";
+			name = TaskFlowTCATests;
 			packageProductDependencies = (
 			);
 			productName = "TaskFlow-TCATests";
-			productReference = 1DB791B82FA619AD003E84BA /* TaskFlow-TCATests.xctest */;
+			productReference = 1DB791B82FA619AD003E84BA /* TaskFlowTCATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1DB791C12FA619AD003E84BA /* TaskFlow-TCAUITests */ = {
+		1DB791C12FA619AD003E84BA /* TaskFlowTCAUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DB791D32FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCAUITests" */;
+			buildConfigurationList = 1DB791D32FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlowTCAUITests" */;
 			buildPhases = (
 				1DB791BE2FA619AD003E84BA /* Sources */,
 				1DB791BF2FA619AD003E84BA /* Frameworks */,
@@ -191,11 +193,11 @@
 				1DB43E402FA64C2800C6D6AF /* TaskFlow-TCATests */,
 				1DB791C52FA619AD003E84BA /* TaskFlow-TCAUITests */,
 			);
-			name = "TaskFlow-TCAUITests";
+			name = TaskFlowTCAUITests;
 			packageProductDependencies = (
 			);
 			productName = "TaskFlow-TCAUITests";
-			productReference = 1DB791C22FA619AD003E84BA /* TaskFlow-TCAUITests.xctest */;
+			productReference = 1DB791C22FA619AD003E84BA /* TaskFlowTCAUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,6 +215,7 @@
 					};
 					1DB791B72FA619AD003E84BA = {
 						CreatedOnToolsVersion = 26.4.1;
+						LastSwiftMigration = 2640;
 						TestTargetID = 1DB791A32FA619AC003E84BA;
 					};
 					1DB791C12FA619AD003E84BA = {
@@ -238,9 +241,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1DB791A32FA619AC003E84BA /* TaskFlow-TCA */,
-				1DB791B72FA619AD003E84BA /* TaskFlow-TCATests */,
-				1DB791C12FA619AD003E84BA /* TaskFlow-TCAUITests */,
+				1DB791A32FA619AC003E84BA /* TaskFlowTCA */,
+				1DB791B72FA619AD003E84BA /* TaskFlowTCATests */,
+				1DB791C12FA619AD003E84BA /* TaskFlowTCAUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,12 +299,12 @@
 /* Begin PBXTargetDependency section */
 		1DB791BA2FA619AD003E84BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1DB791A32FA619AC003E84BA /* TaskFlow-TCA */;
+			target = 1DB791A32FA619AC003E84BA /* TaskFlowTCA */;
 			targetProxy = 1DB791B92FA619AD003E84BA /* PBXContainerItemProxy */;
 		};
 		1DB791C42FA619AD003E84BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1DB791A32FA619AC003E84BA /* TaskFlow-TCA */;
+			target = 1DB791A32FA619AC003E84BA /* TaskFlowTCA */;
 			targetProxy = 1DB791C32FA619AD003E84BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -500,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J7WYYK97KY;
@@ -511,10 +515,11 @@
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskFlow-TCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskFlow-TCA";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskFlowTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskFlowTCA";
 			};
 			name = Debug;
 		};
@@ -522,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J7WYYK97KY;
@@ -536,7 +542,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskFlow-TCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskFlow-TCA";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskFlowTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskFlowTCA";
 			};
 			name = Release;
 		};
@@ -592,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DB791CB2FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCA" */ = {
+		1DB791CB2FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlowTCA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DB791CC2FA619AD003E84BA /* Debug */,
@@ -601,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DB791D02FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCATests" */ = {
+		1DB791D02FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlowTCATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DB791D12FA619AD003E84BA /* Debug */,
@@ -610,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DB791D32FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlow-TCAUITests" */ = {
+		1DB791D32FA619AD003E84BA /* Build configuration list for PBXNativeTarget "TaskFlowTCAUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DB791D42FA619AD003E84BA /* Debug */,
