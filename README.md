@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Tests-Passing-brightgreen" alt="Tests">
 </p>
 
-A **production‑grade task manager** built with **The Composable Architecture (TCA)** – a powerful, testable framework for state management.  
+**The Composable Architecture (TCA)** – a powerful, testable framework for state management.  
 It uses **SwiftUI**, **Core Data**, and **Swift Concurrency** to deliver the same feature set as its MVVM counterparts, but with an **explicit, unidirectional data flow** and fully testable side effects.
 
 > **Part of a multi‑architecture series** – the same app is also implemented with **MVVM+Combine** and **MVVM+async/await**.  
